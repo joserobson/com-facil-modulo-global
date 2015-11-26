@@ -4,9 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace com_facil_modulo_global.infra.data
+namespace com_facil_modulo_global.domain.Entities
 {
-    public class Class1
+    public interface IEntidade<TPrimaryKey>
     {
+        TPrimaryKey Id { get; set; }
     }
 }
