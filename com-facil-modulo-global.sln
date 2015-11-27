@@ -29,6 +29,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5 - Test", "5 - Test", "{A6
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5.1 - UnitTest", "5.1 - UnitTest", "{CA1B81B6-9ECE-458B-AAF4-E4DA2CCEF15A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "com-facil-modulo-global-teste", "com-facil-modulo-global-teste\com-facil-modulo-global-teste.csproj", "{87ADBF5E-3563-4885-B5FB-87B810268822}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -91,6 +93,16 @@ Global
 		{C0F79B10-D764-43E0-8C6E-01C81DC9EAC1}.Release|ARM.ActiveCfg = Release|Any CPU
 		{C0F79B10-D764-43E0-8C6E-01C81DC9EAC1}.Release|x64.ActiveCfg = Release|Any CPU
 		{C0F79B10-D764-43E0-8C6E-01C81DC9EAC1}.Release|x86.ActiveCfg = Release|Any CPU
+		{87ADBF5E-3563-4885-B5FB-87B810268822}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87ADBF5E-3563-4885-B5FB-87B810268822}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87ADBF5E-3563-4885-B5FB-87B810268822}.Debug|ARM.ActiveCfg = Debug|Any CPU
+		{87ADBF5E-3563-4885-B5FB-87B810268822}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{87ADBF5E-3563-4885-B5FB-87B810268822}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{87ADBF5E-3563-4885-B5FB-87B810268822}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87ADBF5E-3563-4885-B5FB-87B810268822}.Release|Any CPU.Build.0 = Release|Any CPU
+		{87ADBF5E-3563-4885-B5FB-87B810268822}.Release|ARM.ActiveCfg = Release|Any CPU
+		{87ADBF5E-3563-4885-B5FB-87B810268822}.Release|x64.ActiveCfg = Release|Any CPU
+		{87ADBF5E-3563-4885-B5FB-87B810268822}.Release|x86.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -103,5 +115,6 @@ Global
 		{A8AE479C-8321-4CA4-9E71-360DEA740007} = {37822B58-A11A-4708-B8A0-B36927C06804}
 		{C0F79B10-D764-43E0-8C6E-01C81DC9EAC1} = {A8AE479C-8321-4CA4-9E71-360DEA740007}
 		{CA1B81B6-9ECE-458B-AAF4-E4DA2CCEF15A} = {A6CCA8AB-1155-4188-99A1-E317769C8FD9}
+		{87ADBF5E-3563-4885-B5FB-87B810268822} = {CA1B81B6-9ECE-458B-AAF4-E4DA2CCEF15A}
 	EndGlobalSection
 EndGlobal

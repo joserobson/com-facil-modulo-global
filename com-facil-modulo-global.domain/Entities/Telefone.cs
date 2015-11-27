@@ -9,8 +9,8 @@ namespace com_facil_modulo_global.domain.Entities
 {
     public class Telefone:Entidade<string>
     {
-        public string Numero { get; set; }
-        public ETipoTelefone Tipo { get; set; }
+        public virtual string Numero { get; set; }
+        public virtual ETipoTelefone Tipo { get; set; }
 
     }
 }

@@ -40,10 +40,15 @@
       <HintPath>..\packages\NHibernate.4.0.4.4000\lib\net40\NHibernate.dll</HintPath>
     </Reference>
     <Reference Include="System" />
+    <Reference Include="System.Data" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Repositories\Nhibernate\Mappings\EnderecoMap.cs" />
     <Compile Include="Repositories\Nhibernate\Mappings\PessoaMap.cs" />
+    <Compile Include="Repositories\Nhibernate\Mappings\TelefoneMap.cs" />
+    <Compile Include="Repositories\Nhibernate\Repository\RepositoryBase.cs" />
+    <Compile Include="Repositories\Nhibernate\Repository\UnitOfWork.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\com-facil-modulo-global.domain\com-facil-modulo-global.domain.csproj">

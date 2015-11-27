@@ -1,0 +1,17 @@
+C:\Fontes\Novo-ComFacil\com-facil-modulo-global\com-facil-modulo-global-teste\obj\Debug\com-facil-modulo-global-teste.csprojResolveAssemblyReference.cache
+C:\Fontes\Novo-ComFacil\com-facil-modulo-global\com-facil-modulo-global-teste\bin\Debug\com-facil-modulo-global-teste.dll.config
+C:\Fontes\Novo-ComFacil\com-facil-modulo-global\com-facil-modulo-global-teste\bin\Debug\com-facil-modulo-global-teste.dll
+C:\Fontes\Novo-ComFacil\com-facil-modulo-global\com-facil-modulo-global-teste\bin\Debug\com-facil-modulo-global-teste.pdb
+C:\Fontes\Novo-ComFacil\com-facil-modulo-global\com-facil-modulo-global-teste\bin\Debug\com-facil-modulo-global.infra.data.dll
+C:\Fontes\Novo-ComFacil\com-facil-modulo-global\com-facil-modulo-global-teste\bin\Debug\FluentNHibernate.dll
+C:\Fontes\Novo-ComFacil\com-facil-modulo-global\com-facil-modulo-global-teste\bin\Debug\Iesi.Collections.dll
+C:\Fontes\Novo-ComFacil\com-facil-modulo-global\com-facil-modulo-global-teste\bin\Debug\NHibernate.dll
+C:\Fontes\Novo-ComFacil\com-facil-modulo-global\com-facil-modulo-global-teste\bin\Debug\com-facil-modulo-global.domain.dll
+C:\Fontes\Novo-ComFacil\com-facil-modulo-global\com-facil-modulo-global-teste\bin\Debug\com-facil-modulo-global.infra.data.pdb
+C:\Fontes\Novo-ComFacil\com-facil-modulo-global\com-facil-modulo-global-teste\bin\Debug\FluentNHibernate.pdb
+C:\Fontes\Novo-ComFacil\com-facil-modulo-global\com-facil-modulo-global-teste\bin\Debug\FluentNHibernate.xml
+C:\Fontes\Novo-ComFacil\com-facil-modulo-global\com-facil-modulo-global-teste\bin\Debug\Iesi.Collections.xml
+C:\Fontes\Novo-ComFacil\com-facil-modulo-global\com-facil-modulo-global-teste\bin\Debug\NHibernate.xml
+C:\Fontes\Novo-ComFacil\com-facil-modulo-global\com-facil-modulo-global-teste\bin\Debug\com-facil-modulo-global.domain.pdb
+C:\Fontes\Novo-ComFacil\com-facil-modulo-global\com-facil-modulo-global-teste\obj\Debug\com-facil-modulo-global-teste.dll
+C:\Fontes\Novo-ComFacil\com-facil-modulo-global\com-facil-modulo-global-teste\obj\Debug\com-facil-modulo-global-teste.pdb

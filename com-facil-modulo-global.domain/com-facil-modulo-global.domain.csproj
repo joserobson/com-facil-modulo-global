@@ -46,6 +46,7 @@
     <Compile Include="Repository\IPessoaRepositorio.cs" />
     <Compile Include="Repository\IRepositorioPessoaJuridica.cs" />
     <Compile Include="Repository\IRepository.cs" />
+    <Compile Include="Repository\IUnitOfWork.cs" />
   </ItemGroup>
   <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
