@@ -7,9 +7,9 @@ using System.Threading.Tasks;
 
 namespace com_facil_modulo_global.domain.Repository
 {
-    public interface IRepository { }
+    public interface IRepositorio { }
     
-    public interface IRepository<TEntity, TPrimaryKey>: IRepository where TEntity: Entidade<TPrimaryKey>
+    public interface IRepositorio<TEntity, TPrimaryKey>: IRepositorio where TEntity: Entidade<TPrimaryKey>
     {
         IQueryable<TEntity> GetAll();
 

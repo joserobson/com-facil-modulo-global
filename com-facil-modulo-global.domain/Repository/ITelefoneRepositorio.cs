@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace com_facil_modulo_global.domain.Repository
 {
-    public interface IRepositorioPessoaJuridica:IRepository<PessoaJuridica,string>
+    public interface ITelefoneRepositorio: IRepositorio<Telefone,string>
     {
     }
 }

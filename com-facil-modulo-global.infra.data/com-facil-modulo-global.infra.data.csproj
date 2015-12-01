@@ -47,7 +47,12 @@
     <Compile Include="Repositories\Nhibernate\Mappings\EnderecoMap.cs" />
     <Compile Include="Repositories\Nhibernate\Mappings\PessoaMap.cs" />
     <Compile Include="Repositories\Nhibernate\Mappings\TelefoneMap.cs" />
-    <Compile Include="Repositories\Nhibernate\Repository\RepositoryBase.cs" />
+    <Compile Include="Repositories\Nhibernate\Repository\EnderecoRepositorio.cs" />
+    <Compile Include="Repositories\Nhibernate\Repository\PessoaFisicaRepositorio.cs" />
+    <Compile Include="Repositories\Nhibernate\Repository\PessoaJuridicaRepositorio.cs" />
+    <Compile Include="Repositories\Nhibernate\Repository\PessoaRepositorio.cs" />
+    <Compile Include="Repositories\Nhibernate\Repository\RepositorioBase.cs" />
+    <Compile Include="Repositories\Nhibernate\Repository\TelefoneRepositorio.cs" />
     <Compile Include="Repositories\Nhibernate\Repository\UnitOfWork.cs" />
   </ItemGroup>
   <ItemGroup>

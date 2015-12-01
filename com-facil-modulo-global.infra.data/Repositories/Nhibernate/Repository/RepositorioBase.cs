@@ -10,7 +10,7 @@ using NHibernate.Linq;
 
 namespace com_facil_modulo_global.infra.data.Repositories.Nhibernate.Repository
 {
-    public abstract class RepositorioBase<TEntity, TPrimaryKey> : IRepository<TEntity, TPrimaryKey> where TEntity : Entidade<TPrimaryKey>
+    public abstract class RepositorioBase<TEntity, TPrimaryKey> : IRepositorio<TEntity, TPrimaryKey> where TEntity : Entidade<TPrimaryKey>
     {
         protected ISession Session { get { return UnitOfWork.Current.Session; } }
 
