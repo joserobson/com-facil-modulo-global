@@ -16,7 +16,9 @@ com-facil-modulo-global.infra.data/bin/
 com-facil-modulo-global.infra.data/obj/
 com-facil-modulo-global.webapi/bin/
 com-facil-modulo-global.webapi/obj/
-com-facil-modulo-global.teste/bin/
-com-facil-modulo-global.teste/obj/
+com-facil-modulo-global-teste/bin/
+com-facil-modulo-global-teste/obj/
 com-facil-modulo-global.infra.crosscutting/bin/
 com-facil-modulo-global.infra.crosscutting/obj/
+ConsoleApplicationTeste/bin/
+ConsoleApplicationTeste/obj/

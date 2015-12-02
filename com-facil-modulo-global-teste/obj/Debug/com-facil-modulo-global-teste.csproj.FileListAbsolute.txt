@@ -15,3 +15,9 @@ C:\Fontes\Novo-ComFacil\com-facil-modulo-global\com-facil-modulo-global-teste\bi
 C:\Fontes\Novo-ComFacil\com-facil-modulo-global\com-facil-modulo-global-teste\bin\Debug\com-facil-modulo-global.domain.pdb
 C:\Fontes\Novo-ComFacil\com-facil-modulo-global\com-facil-modulo-global-teste\obj\Debug\com-facil-modulo-global-teste.dll
 C:\Fontes\Novo-ComFacil\com-facil-modulo-global\com-facil-modulo-global-teste\obj\Debug\com-facil-modulo-global-teste.pdb
+C:\Fontes\Novo-ComFacil\com-facil-modulo-global\com-facil-modulo-global-teste\bin\Debug\Castle.Core.dll
+C:\Fontes\Novo-ComFacil\com-facil-modulo-global\com-facil-modulo-global-teste\bin\Debug\Castle.Windsor.dll
+C:\Fontes\Novo-ComFacil\com-facil-modulo-global\com-facil-modulo-global-teste\bin\Debug\com-facil-modulo-global.infra.crosscutting.dll
+C:\Fontes\Novo-ComFacil\com-facil-modulo-global\com-facil-modulo-global-teste\bin\Debug\com-facil-modulo-global.infra.crosscutting.pdb
+C:\Fontes\Novo-ComFacil\com-facil-modulo-global\com-facil-modulo-global-teste\bin\Debug\Castle.Core.xml
+C:\Fontes\Novo-ComFacil\com-facil-modulo-global\com-facil-modulo-global-teste\bin\Debug\Castle.Windsor.xml

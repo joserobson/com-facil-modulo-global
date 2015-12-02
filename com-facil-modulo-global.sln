@@ -35,6 +35,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.2 - CrossCutting", "4.2 -
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "com-facil-modulo-global.infra.crosscutting", "com-facil-modulo-global.infra.crosscutting\com-facil-modulo-global.infra.crosscutting.csproj", "{BBED32A5-B562-43AE-B620-7C0CEF87F1A3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApplicationTeste", "ConsoleApplicationTeste\ConsoleApplicationTeste.csproj", "{55C53B97-4D5D-493A-BD5E-EAA9DF064D80}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -117,6 +119,16 @@ Global
 		{BBED32A5-B562-43AE-B620-7C0CEF87F1A3}.Release|ARM.ActiveCfg = Release|Any CPU
 		{BBED32A5-B562-43AE-B620-7C0CEF87F1A3}.Release|x64.ActiveCfg = Release|Any CPU
 		{BBED32A5-B562-43AE-B620-7C0CEF87F1A3}.Release|x86.ActiveCfg = Release|Any CPU
+		{55C53B97-4D5D-493A-BD5E-EAA9DF064D80}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{55C53B97-4D5D-493A-BD5E-EAA9DF064D80}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{55C53B97-4D5D-493A-BD5E-EAA9DF064D80}.Debug|ARM.ActiveCfg = Debug|Any CPU
+		{55C53B97-4D5D-493A-BD5E-EAA9DF064D80}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{55C53B97-4D5D-493A-BD5E-EAA9DF064D80}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{55C53B97-4D5D-493A-BD5E-EAA9DF064D80}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{55C53B97-4D5D-493A-BD5E-EAA9DF064D80}.Release|Any CPU.Build.0 = Release|Any CPU
+		{55C53B97-4D5D-493A-BD5E-EAA9DF064D80}.Release|ARM.ActiveCfg = Release|Any CPU
+		{55C53B97-4D5D-493A-BD5E-EAA9DF064D80}.Release|x64.ActiveCfg = Release|Any CPU
+		{55C53B97-4D5D-493A-BD5E-EAA9DF064D80}.Release|x86.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -131,6 +143,7 @@ Global
 		{C0F79B10-D764-43E0-8C6E-01C81DC9EAC1} = {A8AE479C-8321-4CA4-9E71-360DEA740007}
 		{CA1B81B6-9ECE-458B-AAF4-E4DA2CCEF15A} = {A6CCA8AB-1155-4188-99A1-E317769C8FD9}
 		{87ADBF5E-3563-4885-B5FB-87B810268822} = {CA1B81B6-9ECE-458B-AAF4-E4DA2CCEF15A}
+		{55C53B97-4D5D-493A-BD5E-EAA9DF064D80} = {CA1B81B6-9ECE-458B-AAF4-E4DA2CCEF15A}
 		{BBED32A5-B562-43AE-B620-7C0CEF87F1A3} = {00D8119D-67A4-4412-9428-DE3F486EE755}
 	EndGlobalSection
 EndGlobal
