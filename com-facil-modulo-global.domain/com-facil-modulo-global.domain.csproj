@@ -49,8 +49,12 @@
     <Compile Include="Repository\IRepositorio.cs" />
     <Compile Include="Repository\ITelefoneRepositorio.cs" />
     <Compile Include="Repository\IUnitOfWork.cs" />
+    <Compile Include="Services\IPessoaFisicaService.cs" />
     <Compile Include="Services\IPessoaService.cs" />
+    <Compile Include="Services\IServiceBase.cs" />
+    <Compile Include="Services\PessoaFisicaService.cs" />
     <Compile Include="Services\PessoaService.cs" />
+    <Compile Include="Services\ServiceBase.cs" />
     <Compile Include="UnitOfWorkAttribute.cs" />
   </ItemGroup>
   <ItemGroup />

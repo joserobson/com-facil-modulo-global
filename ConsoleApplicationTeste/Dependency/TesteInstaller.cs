@@ -15,7 +15,7 @@ namespace ConsoleApplicationTeste.Dependency
         public void Install(IWindsorContainer container, IConfigurationStore store)
         {
             container.Register(
-                Component.For<ITestePessoaService>().ImplementedBy<TestePessoaService>().LifestyleTransient()                
+                Component.For<ITestePessoaService>().ImplementedBy<TestePessoaService>().LifestyleTransient()                                
                 );
         }
     }

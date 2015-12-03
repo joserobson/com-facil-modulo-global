@@ -54,6 +54,7 @@ namespace com_facil_modulo_global.infra.crosscutting.Dependency
                 .Mappings(m => m.FluentMappings.AddFromAssembly(Assembly.GetAssembly(typeof(TelefoneMap))))
                 .Mappings(m => m.FluentMappings.AddFromAssembly(Assembly.GetAssembly(typeof(EnderecoMap))))
                 .Mappings(m => m.FluentMappings.AddFromAssembly(Assembly.GetAssembly(typeof(PessoaMap))))
+                .Mappings(m => m.FluentMappings.AddFromAssembly(Assembly.GetAssembly(typeof(PessoaFisicaMap))))
                 .BuildSessionFactory();
         }
 

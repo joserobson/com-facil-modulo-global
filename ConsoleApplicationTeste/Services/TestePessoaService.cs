@@ -11,15 +11,17 @@ namespace ConsoleApplicationTeste.Services
     public class TestePessoaService: ITestePessoaService
     {        
         private readonly IPessoaService _personService;
+        private readonly IPessoaFisicaService _pessoaFisicaService;
 
-        public TestePessoaService( IPessoaService pessoaService)
+        public TestePessoaService( IPessoaService pessoaService, IPessoaFisicaService pessoaFisicaService)
         {            
             _personService = pessoaService;
+            _pessoaFisicaService = pessoaFisicaService;
         }
 
         public void ObterPessoas()
         {
-            var lista = _personService.ObterListaPessoa();   
+            var lista = _pessoaFisicaService.GetAll();
         }
     }
 }

@@ -8,19 +8,14 @@ using System.Threading.Tasks;
 
 namespace com_facil_modulo_global.domain.Services
 {
-    public class PessoaService:ServiceBase<Pessoa,string>, IPessoaService
+    public class PessoaFisicaService : ServiceBase<PessoaFisica, string>, IPessoaFisicaService
     {
-        private readonly IPessoaRepositorio _pessoaRepository;
+        private readonly IPessoaFisicaRepositorio _pessoaRepository;
 
-        public PessoaService(IPessoaRepositorio pessoaRepository):base(pessoaRepository)
+        public PessoaFisicaService(IPessoaFisicaRepositorio pessoaRepository)
+            : base(pessoaRepository)
         {
             this._pessoaRepository = pessoaRepository;
-        }
-
-        [UnitOfWork]
-        public List<Pessoa> ObterListaPessoa()
-        {
-            return GetAll().ToList();
         }
     }
 }
