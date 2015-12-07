@@ -8,9 +8,9 @@ namespace com_facil_modulo_global.domain.Entities
 {
     public class PessoaFisica: Pessoa
     {
-        public string DataNascimento { get; set; }
-        public string Cpf { get; set; }
-        public string Rg { get; set; }
-        public string NomeMae { get; set; }
+        public virtual string DataNascimento { get; set; }
+        public virtual string Cpf { get; set; }
+        public virtual string Rg { get; set; }
+        public virtual string NomeMae { get; set; }
     }
 }

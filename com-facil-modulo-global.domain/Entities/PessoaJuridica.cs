@@ -8,7 +8,7 @@ namespace com_facil_modulo_global.domain.Entities
 {
     public class PessoaJuridica:Pessoa
     {
-        public string Cnpj { get; set; }
-        public string IE { get; set; }
+        public virtual string Cnpj { get; set; }
+        public virtual string IE { get; set; }
     }
 }

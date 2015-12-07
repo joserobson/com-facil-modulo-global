@@ -51,10 +51,7 @@ namespace com_facil_modulo_global.infra.crosscutting.Dependency
             var connStr = ConfigurationManager.ConnectionStrings["ModuloGlobal"].ConnectionString;
             return Fluently.Configure()
                 .Database(MsSqlConfiguration.MsSql2008.ConnectionString(connStr))
-                .Mappings(m => m.FluentMappings.AddFromAssembly(Assembly.GetAssembly(typeof(TelefoneMap))))
-                .Mappings(m => m.FluentMappings.AddFromAssembly(Assembly.GetAssembly(typeof(EnderecoMap))))
-                .Mappings(m => m.FluentMappings.AddFromAssembly(Assembly.GetAssembly(typeof(PessoaMap))))
-                .Mappings(m => m.FluentMappings.AddFromAssembly(Assembly.GetAssembly(typeof(PessoaFisicaMap))))
+                .Mappings(m => m.FluentMappings.AddFromAssembly(Assembly.GetAssembly(typeof(TelefoneMap))))              
                 .BuildSessionFactory();
         }
 

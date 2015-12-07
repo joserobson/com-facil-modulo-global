@@ -11,11 +11,12 @@ namespace com_facil_modulo_global.infra.data.Repositories.Nhibernate.Mappings
     public class PessoaFisicaMap: SubclassMap<PessoaFisica>
     {
         public PessoaFisicaMap()
-        {            
+        {
+            DiscriminatorValue(@"1");
             Map(x => x.DataNascimento, "data_Nascimento_Pessoa");
             Map(x => x.Cpf, "cpf_Pessoa");
             Map(x => x.Rg, "rg_Pessoa");
-            Map(x => x.NomeMae, "nomeMae_Pessoa");
+            Map(x => x.NomeMae, "nome_mae_Pessoa");
         }
     }
 }
