@@ -9,7 +9,9 @@ namespace com_facil_modulo_global.infra.data.Repositories.Nhibernate.Mappings
         public EnderecoMap()
         {
             Table("tb_Endereco");
-            Id(x => x.Id, "id_objeto");
+            Id(x => x.Id, "id_objeto")
+                .Not.Nullable()
+                .GeneratedBy.UuidHex("D");
             Map(x => x.Bairro, "bairro_endereco");
             Map(x => x.Cep, "cep_endereco");
             Map(x => x.Cidade, "cidade_endereco");

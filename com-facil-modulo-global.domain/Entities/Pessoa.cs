@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace com_facil_modulo_global.domain.Entities
 {
-    public class Pessoa:Entidade<string>
+    public class Pessoa:Entidade
     {        
         public virtual string Nome { get; set; }
         public virtual IEnumerable<Endereco> Enderecos { get; set; }

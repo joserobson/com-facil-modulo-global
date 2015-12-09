@@ -10,7 +10,7 @@ using NHibernate.Linq;
 
 namespace com_facil_modulo_global.infra.data.Repositories.Nhibernate.Repository
 {
-    public abstract class RepositorioBase<TEntity, TPrimaryKey> : IRepositorio<TEntity, TPrimaryKey> where TEntity : Entidade<TPrimaryKey>
+    public abstract class RepositorioBase<TEntity> : IRepositorio<TEntity> where TEntity : Entidade
     {
         protected ISession Session { get { return UnitOfWork.Current.Session; } }
 
@@ -19,13 +19,13 @@ namespace com_facil_modulo_global.infra.data.Repositories.Nhibernate.Repository
             return Session.Query<TEntity>();
         }
 
-        public TEntity Get(TPrimaryKey key)
+        public TEntity Get(string id)
         {
-            return Session.Get<TEntity>(key);
+            return Session.Get<TEntity>(id);
         }
 
         public void Insert(TEntity entity)
-        {
+        {            
             Session.Save(entity);
         }
 

@@ -8,6 +8,10 @@ namespace ConsoleApplicationTeste.Services
 {
     public interface ITestePessoaService
     {
-         void ObterPessoas();
+        void ObterPessoas();
+
+        void InserirPessoaFisica();
+
+        void ObterPessoaPorId();
     }
 }

@@ -9,11 +9,11 @@ namespace com_facil_modulo_global.domain.Services
 {
     public interface IServiceBase { }
 
-    public interface IServiceBase<TEntity, TPrimaryKey> : IServiceBase where TEntity : Entidade<TPrimaryKey>
+    public interface IServiceBase<TEntity> : IServiceBase where TEntity : Entidade
     {
         IEnumerable<TEntity> GetAll();
 
-        TEntity Get(TPrimaryKey key);
+        TEntity Get(string id);
 
         void Insert(TEntity entity);
 

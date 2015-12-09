@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace com_facil_modulo_global.domain.Services
 {
-    public interface IPessoaService: IServiceBase<Pessoa,string>
+    public interface IPessoaService: IServiceBase<Pessoa>
     {
         List<Pessoa> ObterListaPessoa();
     }

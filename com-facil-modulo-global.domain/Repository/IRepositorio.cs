@@ -9,11 +9,11 @@ namespace com_facil_modulo_global.domain.Repository
 {
     public interface IRepositorio { }
     
-    public interface IRepositorio<TEntity, TPrimaryKey>: IRepositorio where TEntity: Entidade<TPrimaryKey>
+    public interface IRepositorio<TEntity>: IRepositorio where TEntity: Entidade
     {
         IQueryable<TEntity> GetAll();
 
-        TEntity Get(TPrimaryKey key);
+        TEntity Get(string key);
 
         void Insert(TEntity entity);
 

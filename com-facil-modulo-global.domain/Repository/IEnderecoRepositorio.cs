@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace com_facil_modulo_global.domain.Repository
 {
-    public interface IEnderecoRepositorio:IRepositorio<Endereco,string>
+    public interface IEnderecoRepositorio:IRepositorio<Endereco>
     {
     }
 }

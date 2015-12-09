@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace com_facil_modulo_global.infra.data.Repositories.Nhibernate.Repository
 {
-    public class PessoaFisicaRepositorio: RepositorioBase<PessoaFisica,string>, IPessoaFisicaRepositorio
+    public class PessoaFisicaRepositorio: RepositorioBase<PessoaFisica>, IPessoaFisicaRepositorio
     {
     }
 }

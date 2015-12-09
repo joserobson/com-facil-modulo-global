@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace com_facil_modulo_global.domain.Services
 {
-    public class PessoaService:ServiceBase<Pessoa,string>, IPessoaService
+    public class PessoaService:ServiceBase<Pessoa>, IPessoaService
     {
         private readonly IPessoaRepositorio _pessoaRepository;
 

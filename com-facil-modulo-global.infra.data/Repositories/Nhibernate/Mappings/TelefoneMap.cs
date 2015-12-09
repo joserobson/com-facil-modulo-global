@@ -9,7 +9,9 @@ namespace com_facil_modulo_global.infra.data.Repositories.Nhibernate.Mappings
         public TelefoneMap()
         {
             Table("tb_Telefone");
-            Id(x => x.Id, "id_objeto");
+            Id(x => x.Id, "id_objeto")
+                .Not.Nullable()
+                .GeneratedBy.UuidHex("D");
             Map(x => x.Numero, "numero_telefone");
             Map(x => x.Tipo, "id_tipo_telefone");
         }

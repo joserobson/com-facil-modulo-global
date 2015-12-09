@@ -8,11 +8,11 @@ using System.Threading.Tasks;
 
 namespace com_facil_modulo_global.domain.Services
 {
-    public class ServiceBase<TEntity, TPrimaryKey> : IServiceBase<TEntity, TPrimaryKey> where TEntity : Entidade<TPrimaryKey>
+    public class ServiceBase<TEntity> : IServiceBase<TEntity> where TEntity : Entidade
     {
-        private readonly IRepositorio<TEntity, TPrimaryKey> _repositorio;
+        private readonly IRepositorio<TEntity> _repositorio;
 
-        public ServiceBase(IRepositorio<TEntity, TPrimaryKey> repositorio)
+        public ServiceBase(IRepositorio<TEntity> repositorio)
         {
             _repositorio = repositorio;
         }
@@ -25,9 +25,9 @@ namespace com_facil_modulo_global.domain.Services
             return _repositorio.GetAll().ToList();
         }
 
-        public TEntity Get(TPrimaryKey key)
+        public TEntity Get(string id)
         {
-            return _repositorio.Get(key);
+            return _repositorio.Get(id);
         }
 
         public void Insert(TEntity entity)

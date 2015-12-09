@@ -6,8 +6,8 @@ using System.Threading.Tasks;
 
 namespace com_facil_modulo_global.domain.Entities
 {
-    public interface IEntidade<TPrimaryKey>
+    public interface IEntidade
     {
-        TPrimaryKey Id { get; set; }
+        string Id { get; set; }
     }
 }
