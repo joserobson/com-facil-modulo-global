@@ -10,62 +10,45 @@ using System.Configuration;
 using com_facil_modulo_global.domain.Services;
 using com_facil_modulo_global.domain.Repository;
 using com_facil_modulo_global.infra.data.Repositories.Nhibernate.Repository;
+using Castle.Windsor;
+using Castle.Windsor.Installer;
+using com_facil_modulo_global.infra.crosscutting.Dependency;
+using com_facil_modulo_global.application.AppServices;
 
 namespace com_facil_modulo_global_teste
 {
     [TestClass]
-    public class UnitTestPessoa
-    {        
-        ///private static ISessionFactory SessionFactory;
-        //protected ISession session;
+    public class UnitTestPessoa : IDisposable
+    {                
+        private WindsorContainer _windsorContainer;
 
-        private IPessoaService _pessoaService;
-        private IPessoaRepositorio _pessoaRepositorio;
-
-        //public UnitTestPessoa(IPessoaService pessoaService)
-        //{
-          //  _pessoaService = pessoaService;
-        //}
+        private IPessoaAppService _pessoaService;                
 
         [TestInitialize]
         public void Initialize()
         {
-            using (var moduloGlobalRunner = new ModuloGlobalRunner())
-            {
-                moduloGlobalRunner.Start();
+            _windsorContainer = new WindsorContainer();
 
-                //Console.WriteLine("Press enter to stop background services...");
-                //Console.ReadLine();
-            }
+            _windsorContainer.Install(FromAssembly.Containing<ComFacilModuloGlobalDependencyInstaller>());
+            _windsorContainer.Install(FromAssembly.This());
+
+            _pessoaService = _windsorContainer.Resolve<IPessoaAppService>();
         }
-
-
-        //[TestInitialize]
-        //public void Initialize()
-        //{
-        //    var connStr = ConfigurationManager.ConnectionStrings["com_facil_modulo_global_teste.Settings1.ConexaoModuloGlobal"].ConnectionString;
-        //    SessionFactory = Fluently.Configure()
-        //        .Database(MsSqlConfiguration.MsSql2008.ConnectionString(connStr))
-        //        .Mappings(m => m.FluentMappings.AddFromAssembly(Assembly.GetAssembly(typeof(TelefoneMap))))
-        //        .Mappings(m => m.FluentMappings.AddFromAssembly(Assembly.GetAssembly(typeof(EnderecoMap))))
-        //        .Mappings(m => m.FluentMappings.AddFromAssembly(Assembly.GetAssembly(typeof(PessoaMap))))
-        //        .BuildSessionFactory();
-
-        //    session = SessionFactory.OpenSession();
-        //}
+     
 
         [TestMethod]
         public void TestSelecionarPessoas()
         {
-            _pessoaRepositorio = new PessoaRepositorio();
-            _pessoaService = new PessoaService(_pessoaRepositorio);
-            var lista = _pessoaService.ObterListaPessoa();
-            Assert.IsNotNull(lista);
+            var lista = _pessoaService.ObterPessoas();
+            
         }
 
-        //public void Dispose()
-        //{
-        //    session.Dispose();
-        //}
+        public void Dispose()
+        {
+            if (_windsorContainer != null)
+            {                
+                _windsorContainer.Dispose();
+            }
+        }
     }
 }

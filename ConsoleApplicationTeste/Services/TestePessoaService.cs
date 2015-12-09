@@ -27,9 +27,8 @@ namespace ConsoleApplicationTeste.Services
 
         public void ObterPessoaPorId()
         {
-           var pessoa =  _pessoaFisicaService.Get(")Ý§ïr?ÜM?Üúû§");
-
-
+            string id = "5363d09e-177a-4252-87d5-d6e6a6112796";
+            var pessoa = _pessoaFisicaService.Get(id);
         }
 
 

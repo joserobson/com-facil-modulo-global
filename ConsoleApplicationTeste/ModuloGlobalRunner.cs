@@ -23,7 +23,9 @@ namespace ConsoleApplicationTeste
 
             //_windsorContainer.Resolve<IPeriodicServiceTrigger>().Start();
 
-            _windsorContainer.Resolve<ITestePessoaService>().ObterPessoas();
+            //_windsorContainer.Resolve<ITestePessoaService>().ObterPessoas();
+
+            _windsorContainer.Resolve<ITestePessoaService>().ObterPessoaPorId();
             
                 //_windsorContainer.Resolve<ITestePessoaService>().InserirPessoaFisica();
         }

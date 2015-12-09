@@ -39,8 +39,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
+    <Compile Include="AppServices\IPessoaAppService.cs" />
+    <Compile Include="AppServices\PessoaAppService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\com-facil-modulo-global.domain\com-facil-modulo-global.domain.csproj">
+      <Project>{9fe110e2-7435-4758-8fec-13ef74aef073}</Project>
+      <Name>com-facil-modulo-global.domain</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
