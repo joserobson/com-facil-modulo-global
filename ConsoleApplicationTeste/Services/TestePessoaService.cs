@@ -1,4 +1,5 @@
 ﻿using com_facil_modulo_global.domain.Entities;
+using com_facil_modulo_global.domain.Enum;
 using com_facil_modulo_global.domain.Repository;
 using com_facil_modulo_global.domain.Services;
 using System;
@@ -43,7 +44,7 @@ namespace ConsoleApplicationTeste.Services
 
             var telefone = new Telefone();
             telefone.Numero = "999934311";
-            telefone.Tipo = Telefone.CELULAR;
+            telefone.Tipo = (int)ETipoTelefone.Celular;
 
             var telefones = new List<Telefone>();
             telefones.Add(telefone);
