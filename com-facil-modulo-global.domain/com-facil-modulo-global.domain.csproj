@@ -48,6 +48,7 @@
     <Compile Include="Enum\ETipoContrato.cs" />
     <Compile Include="Enum\ETipoTelefone.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Repository\IClienteRepositorio.cs" />
     <Compile Include="Repository\IEnderecoRepositorio.cs" />
     <Compile Include="Repository\IPessoaFisicaRepositorio.cs" />
     <Compile Include="Repository\IPessoaRepositorio.cs" />
@@ -55,6 +56,8 @@
     <Compile Include="Repository\IRepositorio.cs" />
     <Compile Include="Repository\ITelefoneRepositorio.cs" />
     <Compile Include="Repository\IUnitOfWork.cs" />
+    <Compile Include="Services\ClienteService.cs" />
+    <Compile Include="Services\IClienteService.cs" />
     <Compile Include="Services\IPessoaFisicaService.cs" />
     <Compile Include="Services\IPessoaService.cs" />
     <Compile Include="Services\IServiceBase.cs" />

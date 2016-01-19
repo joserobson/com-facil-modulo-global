@@ -39,6 +39,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AppServices\ClienteAppService.cs" />
+    <Compile Include="AppServices\IClienteAppService.cs" />
     <Compile Include="AppServices\IPessoaAppService.cs" />
     <Compile Include="AppServices\PessoaAppService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
